@@ -1,0 +1,76 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+    background: #fffbfa;
+}
+
+h1 {
+    text-align: center;
+}
+
+#completed {
+    visibility: hidden;
+    margin: auto;
+    background: #dbb1cd;
+    padding: 10px 20px 10px 20px;
+    width: 45%;
+    border-radius: 20px;
+    float: right;
+    font-size: 30px;
+}
+
+#quiz {
+    margin-left: 10px;
+    background: #92b6d5;
+    padding: 10px 20px 10px 20px;
+    width: 45%;
+    border-radius: 20px;
+    float: left;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+#submit {
+    background: lightseagreen;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    transition-duration: .5s;
+    margin-top: 15px;
+}
+
+#submit:hover {
+    background: white;
+    border: 1px solid lightseagreen;
+    color: black;
+    cursor: pointer;
+}
+
+#home {
+    background: lightseagreen;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    transition-duration: .5s;
+    margin-top: 15px;
+}
+
+#home:hover {
+    background: white;
+    border: 1px solid lightseagreen;
+    color: black;
+    cursor: pointer;
+}
+
+#mChoice {
+    width: auto;
+    margin-left: 3em;
+}
